@@ -41,6 +41,7 @@ SUSTAIN consists of four main windows that provide four major aspects operations
    :caption: Contents:
 
    install
+   whatsnew
    windows/index
    howto/index
    faq
