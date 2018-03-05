@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SUSTAIN Documentation'
+project = 'NeDNR SUSTAIN'
 copyright = '2018, Nebraska Department of Natural Resources and Michael Ou'
 author = 'Nebraska Department of Natural Resources and Michael Ou'
 
@@ -79,7 +79,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'bizstyle'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
