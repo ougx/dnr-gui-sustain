@@ -14,4 +14,4 @@ There are four buttons in the ``Main`` window. Each button will open a new windo
 
 When the ``Main`` window is closed, a dialog window will pop up to provide the option to save the current settings to the configuration file. Though it is not recommended, experienced user can also modify the ``config.ini`` file using text editing tools.
 
-.. image:: SaveConfig.png
+.. image:: saveconfig.png

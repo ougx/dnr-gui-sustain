@@ -1,7 +1,7 @@
 How to
 ======
 
-These guides provide some tutorials .
+These guides provide some tutorials.
 
 
 .. toctree::

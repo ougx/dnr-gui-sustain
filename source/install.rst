@@ -1,4 +1,11 @@
 Installation
 ============
 
-todoList
+Currently, installing SUSTAIN is very simple.
+
+* Download the version for the groundwater you like to use.
+* Uncompress the file
+* Execute ``main.exe``
+
+TODO:
+links to download the app

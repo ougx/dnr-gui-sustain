@@ -6,6 +6,9 @@
 SUSTAIN: Sustainable Use Scenario Tool for Analysis and Informing Nebraskans
 ============================================================================
 
+.. image:: logo.png
+
+
 SUSTAIN consists of four main windows that provide four major aspects operations:
 
 * View watershed model data

@@ -1,7 +1,7 @@
-Groundwater Budget
+Groundwater Level
 ==================
 
-The ``Groundwater Budget`` window display the simulated groundwater levels based on the groundwater model output file.
+The ``Groundwater Level`` window display the simulated groundwater levels based on the groundwater model output file.
 
 * **Data area**
 

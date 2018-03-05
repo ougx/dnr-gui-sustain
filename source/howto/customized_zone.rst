@@ -1,4 +1,4 @@
 Create a customized zone
 ========================
 
-todoList
+There are two methods to create customized zones.
