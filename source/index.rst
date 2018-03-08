@@ -40,9 +40,9 @@ SUSTAIN consists of four main windows that provide four major aspects operations
    :maxdepth: 2
    :caption: Contents:
 
-   install
-   whatsnew
+   intro
    windows/index
+   files
    howto/index
    faq
 
