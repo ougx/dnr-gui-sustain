@@ -42,7 +42,7 @@ SUSTAIN consists of four main windows that provide four major aspects operations
 
    intro
    windows/index
-   files
+   files/index
    howto/index
    faq
 

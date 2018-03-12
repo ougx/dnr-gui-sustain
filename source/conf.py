@@ -24,7 +24,7 @@ copyright = '2018, Nebraska Department of Natural Resources and Michael Ou'
 author = 'Nebraska Department of Natural Resources and Michael Ou'
 
 # The short X.Y version
-version = ''
+version = '0.1'
 # The full version, including alpha/beta/rc tags
 release = '0.1.2018'
 
@@ -114,11 +114,11 @@ htmlhelp_basename = 'SUSTAINDocumentationdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '12pt',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -133,7 +133,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SUSTAINDocumentation.tex', 'SUSTAIN Documentation Documentation',
+    (master_doc, 'SUSTAINDocumentation.tex',
+     'SUSTAIN: Sustainable Use Scenario Tool for Analysis and Informing Nebraskans',
      'Nebraska Department of Natural Resources and Michael Ou', 'manual'),
 ]
 
@@ -143,7 +144,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sustaindocumentation', 'SUSTAIN Documentation Documentation',
+    (master_doc, 'sustaindocumentation',
+    'SUSTAIN: Sustainable Use Scenario Tool for Analysis and Informing Nebraskans',
      [author], 1)
 ]
 
@@ -154,7 +156,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SUSTAINDocumentation', 'SUSTAIN Documentation Documentation',
+    (master_doc, 'SUSTAINDocumentation', 'SUSTAIN: Sustainable Use Scenario Tool for Analysis and Informing Nebraskans',
      author, 'SUSTAINDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]
