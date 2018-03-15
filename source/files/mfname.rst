@@ -2,7 +2,7 @@ MODFLOW name file template
 ==========================
 
 This document is prepared for the readers with knowledge of MODFLOW to create the MODFLOW name file template used by ``SUSTAIN``.
-A MODFLOW name file template, *'mf_template.nam'*, should be placed in the master directory.
+A MODFLOW name file template should be specified in the SUSTAIN name file (See :doc:`../files/name`).
 The template is used to reconstruct the MODFLOW name file for the scenario run (with pumping/recharge changes).
 Note that this file should be constructed based on the original baseline MODFLOW name file with some packages being removed. All the file path is relative to the master directory.
 The changes in the scenario run are implemented through the MODFLOW ``Well`` package. Therefore, the template must **not** contain the Well package.

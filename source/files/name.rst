@@ -86,6 +86,9 @@ Watershed model variables
 Groundwater model variables
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+``MFNAM`` *templateFile*
+  The MFNAM variable sets the file path of the name template (See :doc:`../files/mfname`).
+
 ``MFDIS`` *disFileNum disFile*
   The MFDIS variable sets the file number and path for the DIS package of the baseline MODFLOW model.
 
@@ -111,7 +114,6 @@ Groundwater model variables
 ``MFSDATE`` *startDate*
   The MFSDATE variable specifies the starting date of the MODFLOW simulation.
   It needs to be in the format ``YYYY-MM-DD`` such as 2001-01-01.
-
 
 ``MFDRY``
   The MFDRY sets the head value used by MODFLOW for a dry cell. This value can be identified in the `BAS` file.
