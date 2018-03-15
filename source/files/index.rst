@@ -1,52 +1,28 @@
 Files
 =====
 
+To run SUSTAIN, you need to have the App files and the data files.
+The App files include the SUSTAIN executable and its dependence.
+The data files include the Watershed data and MODFLOW data.
+The file structures are shown below.
 
+App file tree:
+::
+  |   SUSTAIN.bat
+  |
+  +---main
+  |   |   main.exe
+  |   |   SUSTAIN dependence files
 
 Data file structure:
 ::
-
+  |   SUSTAIN namefile
   +---modflow
-  |   +---et
-  |   +---ghb
-  |   +---rch
-  |   +---str
-  |   \---wel
+  |   |   modflow data files
   +---rswb
-  |   +---CNLDIR
-  |   |   +---CNL001
-  |   |   \---CNL002
-  |   +---GriddedCropSim
-  |   |   \---Run005
-  |   |       +---DP
-  |   |       +---ET
-  |   |       +---NIR
-  |   |       +---Precip
-  |   |       \---RO
-  |   +---Inputs
-  |   +---LandUse
-  |   |   +---LU001
-  |   |   \---nGW001
-  |   +---MIDIR
-  |   |   \---MI001
-  |   +---MisDIR
-  |   |   \---WY005
-  |   \---result_baseline_10yr
-  |       +---AnnRCH
-  |       +---Canal
-  |       +---COD
-  |       +---COP
-  |       +---GWP
-  |       +---IrrPrec
-  |       +---Pump
-  |       +---RAW
-  |       +---RCH
-  |       +---ROBal
-  |       +---SF
-  |       +---SWD
-  |       +---WEL
-  |       \---Well_chk
-  \---zones
+  |   |   watershed data fiels
+  +---zones
+  |   |   zone files
 
 
 These are the documents for important files used by SUSTAIN.
