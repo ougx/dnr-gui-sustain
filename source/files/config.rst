@@ -9,3 +9,5 @@ Currently, only two settings are save in this file.
 
 1. baseline name file path
 2. Output directory
+
+The file is usually saved by *SUSTAIN* through the ``Configuration`` window (See :doc:`../windows/config`). However, experienced user can also modify the ``config.ini`` file using text editing tools.
