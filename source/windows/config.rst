@@ -7,12 +7,11 @@ The ``Configuration`` window is the first window that appears when the applicati
 * ``Scenario Output Dir`` defines the output directory of the current analysis. All the new model input and output files generated will be placed in this directory.
 .. If the model is completed, *SUSTAIN* will read the model results in this directory.
 
-When the ``Configuration`` window starts, it will load the configuration file ``config.ini`` # (See :doc:`../files/config`) in the same directory of the application. The configuration file includes the saved settings of ``Baseline Name File`` and ``Scenario Output Dir``.
+When the ``Configuration`` window starts, it will load the configuration file ``config.ini`` # (See :doc:`../files/config`) in the same directory of the application.
+The configuration file includes the saved settings of ``Baseline Name File`` and ``Scenario Output Dir``.
 
 There are four buttons in the ``Main`` window. Each button will open a new window with different functions. These windows are introduced as follows.
 
-.. image:: main.png
+.. image:: config.png
 
-When the ``Main`` window is closed, a dialog window will pop up to provide the option to save the current settings to the configuration file. Though it is not recommended, experienced user can also modify the ``config.ini`` file using text editing tools.
-
-.. image:: saveconfig.png
+When the ``Configuration`` window is closed, the current settings in the window will be automatically saved to the configuration file.
