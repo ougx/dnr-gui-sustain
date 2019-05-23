@@ -11,5 +11,6 @@ These are the documents for ech window.
    swdata
    gwbudget
    gwlevel
+   newscen
    showZone
    *
