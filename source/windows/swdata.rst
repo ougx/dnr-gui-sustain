@@ -6,6 +6,7 @@ The ``Watershed Model Data`` window shows watershed model data including land us
 * **Data zonation area**
 
 ..  * ``Output Zone`` select the spatial division of the data to be summarized. For example, if the *NRD* option is selected, the model results are aggregated in each NRD. The customized zone allows users select an existing zone file or shapefiles to define the output zone. Please see the Customized Zone section.
+
   * ``Show Zones`` activate a new window displaying the distribution map of the selected output zones (See :doc:`../windows/showZone`).
   * ``Load Results`` load the results from the model files and calculate the pumping, recharge and land cover area for each output zone. It can take a while and the program will be frozen during the reading process.
 
