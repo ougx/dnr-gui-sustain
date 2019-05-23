@@ -17,6 +17,11 @@ App file tree:
 Data file structure:
 ::
   |   SUSTAIN namefile
+  +---bin
+  |   |   MODFLOW and other executables
+  +---baseline
+  |   |   historical simulation
+  |   |   future simulation
   +---modflow
   |   |   modflow data files
   +---rswb

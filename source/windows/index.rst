@@ -7,10 +7,9 @@ These are the documents for ech window.
 .. toctree::
    main
    config
-   gwpump
    swdata
    gwbudget
+   gwpump
    gwlevel
-   newscen
    showZone
    *
