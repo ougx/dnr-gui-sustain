@@ -3,10 +3,10 @@ Watershed Model Data
 
 The ``Watershed Model Data`` window shows watershed model data including land use, and groundwater pumping and recharge estimated with the watershed model ``CropSim``.
 
-* **Data area**
+* **Data zonation area**
 
-  * ``Output Zone`` select the spatial division of the data to be plotted. For example, if the *NRD* option is selected, the model results are aggregated in each NRD. The customized zone allows users select an existing zone file or shapefiles to define the output zone. Please see the Customized Zone section.
-  * ``Show Zones`` activate a new window displaying the distribution map of the selected output zones.
+..  * ``Output Zone`` select the spatial division of the data to be summarized. For example, if the *NRD* option is selected, the model results are aggregated in each NRD. The customized zone allows users select an existing zone file or shapefiles to define the output zone. Please see the Customized Zone section.
+  * ``Show Zones`` activate a new window displaying the distribution map of the selected output zones (See :doc:`../windows/showZone`).
   * ``Load Results`` load the results from the model files and calculate the pumping, recharge and land cover area for each output zone. It can take a while and the program will be frozen during the reading process.
 
 * **Selection area** provide the filtering function on the data. Users can select specific variable, zone, crop type and irrigation type for plotting or export. In each selection block, one or more items can be selected. To select multiple items, press the *Ctrl* when clicking the items or check the boxes. If no item is selected when plotting, the program assumes that all the items are selected (no filtering).
@@ -21,9 +21,9 @@ The ``Watershed Model Data`` window shows watershed model data including land us
   - ``Plot type`` control if the data are plotted as lines, bars or areas.
   - ``Stacked Checkbox`` stack the bar and area plots. Note that the bar and area plots will be stacked based on all other dimensions except the time.
   - ``Cumulative Checkbox``  plot the cumulative values instead of the annual values.
-  - ``Agg.Zones Checkbox`` aggregate the values based on zones. For example, if the user want to plot the total pumping in Box Butte and Cherry counties, the user can select *Groundwater pumping* and these two counties for data, and check this ``Agg.Zones`` checkbox.
-  - ``Agg.Crops Checkbox`` is similar to ``Agg.Zones`` but it aggregates over crop types instead of zones.
-  - ``Agg.IrrTypes Checkbox`` is similar to ``Agg.Zones`` but it aggregates over irrigation types instead of zones.
+  - ``Sum Zones Checkbox`` sum the values based on zones. For example, if the user want to plot the total pumping in Box Butte and Cherry counties, the user can select *Groundwater pumping* and these two counties for data, and check this ``Agg.Zones`` checkbox.
+  - ``Sum Crops Checkbox`` is similar to ``Sum Zones`` but it sums over crop types instead of zones.
+  - ``Sum IrrTypes Checkbox`` is similar to ``Sum Zones`` but it sums over irrigation types instead of zones.
   - ``xAxis Label`` make change to the title of the x-axis of the plot.
   - ``yAxis Label`` make change to the title of the y-axis of the plot.
   - ``Plot Title`` make change to the plot title.
