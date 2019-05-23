@@ -3,13 +3,11 @@ Groundwater Budget
 
 The ``Groundwater Budget`` window is similar to the ``Watershed Model Data`` window. But it shows groundwater flow data including groundwater pumping, baseflow and groundwater storage change estimated with the ``MODFLOW`` groundwater model.
 
-* **Data area**
-
-  * ``Output Zone`` select the spatial division of the data to be plotted.
+* **Data zonation area** select the spatial division of the data to be plotted.
     For example, if the *NRD* option is selected, the model results are aggregated in each NRD.
     The customized zone allows users select an existing zone file or shapefiles to define the output zone.
     Please see :doc:`../howto/customized_zone`.
-  - ``Show Zones`` activate a new window displaying the distribution map of the selected output zones.
+  - ``Show Zones`` activate a new window displaying the distribution map of the selected output zones (See :doc:`../windows/showZone`).
   - ``Load Results`` load the results from the model output file and calculate the pumping, baseflow
     and groundwaer storage change for each output zone.
     It can take a while and the program will be frozen during the reading process.
@@ -23,8 +21,8 @@ The ``Groundwater Budget`` window is similar to the ``Watershed Model Data`` win
 
   - ``Plot type`` control if the data are plotted as lines, bars or areas.
   - ``Cumulative Checkbox``  plot the cumulative values instead of the annual values.
-  - ``Agg.Zones Checkbox`` aggregate the values based on zones. For example, if the user want to plot the total pumping in Box Butte and Cherry counties, the user can select *Groundwater pumping* and these two counties for data, and check this ``Agg.Zones`` checkbox.
-  - ``Agg.Vars Checkbox`` is similar to ``Agg.Zones`` but it sums up the selected variables. For example, users want to understand the total increased water availability after retiring irrigation. They can look at the sum of increased baseflow and groundwater storage by selecting these variables and this option.
+  - ``Sum Zones Checkbox`` aggregate the values based on zones. For example, if the user want to plot the total pumping in Box Butte and Cherry counties, the user can select *Groundwater pumping* and these two counties for data, and check this ``Sum Zones`` checkbox.
+  - ``Sum Vars Checkbox`` is similar to ``Sum Zones`` but it sums up the selected variables. For example, users want to understand the total increased water availability after retiring irrigation. They can look at the sum of increased baseflow and groundwater storage by selecting these variables and this option.
   - ``Result type`` control which data to be used to plot. It includes the baseline data, scenario data and the difference between the baseline and scenario.
   - ``Stacked Checkbox`` stack the bar and area plots. Note that the bar and area plots will be stacked based on all other dimensions except the time.
   - ``Month Checkbox`` plot the data on monthly basis instead of annual.
